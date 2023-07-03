@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset='UTF-8'/>
@@ -8,22 +9,17 @@
 </head>
 <body>
   <div id='main'>
-
-    <h2></h2>
-
+    <h2>Flatiron Film Theatre</h2>
     <form id='github-form'>
-    
+      <input id='search' type='text' name='search'>
+      <input type='submit' name='submit'/>
     </form>
-
     <div id='film-container'>
-      <ul id='film-list'>
-
-      </ul>
-
+      <ul id='film-list'></ul>
+      <ul id='repos-list'></ul>
     </div>
-
+    <div id='film-details'></div>
   </div>
-
+  <script src='js/index.js'></script>
 </body>
-<script src='js/index.js'></script>
 </html>
