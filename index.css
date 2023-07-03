@@ -1,3 +1,4 @@
+
 #main {
   display: flex;
   flex-direction: column;
@@ -9,5 +10,14 @@
 }
 
 ul {
-  list-style: none;
+  list-style: flex-right;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.top-right {
+  position: fixed;
+  top: 10px;
+  right: 10px;
 }
